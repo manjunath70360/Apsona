@@ -1,0 +1,45 @@
+.navbar-custom {
+    background-color: rgb(124, 77, 213) ;
+    position: relative;
+    z-index: 1000;
+   
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .dropdown-item {
+    color: #ffffff;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .dropdown-item:hover {
+    color: #555555;
+}
+
+.logo {
+   font-family: inter;
+   font-size: 24px;
+   color: white;
+   font-weight: 500;
+}
+
+.dropdown-custom {
+    background-color: transparent;
+}
+
+.dropdown-custom .dropdown-item {
+    color: #333333;
+}
+
+.dropdown-custom .dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+.navbar-custom .nav-link.active,
+.navbar-custom .dropdown-item.active {
+    color: #707274;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-color: #ffffff;
+
+}

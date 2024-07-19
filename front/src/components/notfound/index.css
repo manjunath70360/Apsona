@@ -1,0 +1,42 @@
+.not-found-container{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;    
+    background-image: linear-gradient(black,white, white);
+}
+
+.text-content {
+    align-self: center;
+    padding: 20px;
+    position: absolute;
+    top: 30%; 
+    z-index: 1; 
+}
+.error-num{
+font-weight: 900;
+font-family: titillium web, sans-serif;
+font-size: 120px;
+color: #07ADCC;
+}
+.sub-text{
+    font-family: titillium web, sans-serif;
+    font-size: 18px;
+    color: #3e606f;
+}
+.sub-para{
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: 300;
+    color: #212529;
+}
+.home-btn{
+    margin: 15px 0px 0px;
+    padding: 10px 40px;
+    color: #ffffff;
+    background-color: #7bd328;
+    font-family: titillium web, sans-serif;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
